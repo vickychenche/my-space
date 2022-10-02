@@ -11,8 +11,8 @@ body {
     text-align: center;
 }
 .nav {
-    background-color: #1D2D44;
-    color: white;
+    background-color: #293241;
+    color: #E0FBFC;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
@@ -41,9 +41,9 @@ body {
 }
 
 .nav li:active{ 
-    background-color: #3E5C76;
+    background-color: #3D5A80;
 }
 
 .nav li:hover{
-    background-color: #3E5C76;
+    background-color: #E0FBFC;
 }
