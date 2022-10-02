@@ -7,7 +7,7 @@ export default function Home(){
         <img src={pfp} />
         <body> 
             Hello, I am Vicky! <br></br>
-            Computer Science Specialist + Biology Minor
+            3rd Year Computer Science Specialist + Biology Minor
         </body>
         </>
         

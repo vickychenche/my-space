@@ -1,0 +1,15 @@
+h2 {
+    color: #293241;
+}
+
+ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    list-style: none;
+}
+
+a {
+    color: #293241;
+}
