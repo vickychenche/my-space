@@ -3,10 +3,13 @@ export default function navbar(){
         <a href="/" class="site-title"> Vicky Chen</a>
         <ul>
             <li>
-                <a href="/about"> about me</a>
+                <a href="/about"> About me</a>
             </li>
             <li>
-                <a href="/work-experience"> Work Experience</a>
+                <a href="/profExperience"> Work Experience</a>
+            </li>
+            <li>
+                <a href="/project"> Project</a>
             </li>
         </ul>
     </nav>
