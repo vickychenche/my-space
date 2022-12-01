@@ -16,6 +16,10 @@ export default function Project(){
         <a href="https://docs.google.com/presentation/d/1MrHE1-BRRySlTNYtws_4Yr0XQqnyWqZYgeAFnR51g2s/edit?usp=sharing" target="blank"> Project Presentaion </a>
         <br></br>
         <a href="https://docs.google.com/document/d/1k90OKn3s_OlTwvWD225pYDVBqGTDHLefGlnqDTygrDE/edit?usp=sharing" target="blank"> Low Fadelity Protoype </a>
+        <br></br>
+        <a href="https://docs.google.com/presentation/d/1ud0ACtJNoUhchyuC4JFmpnezk1AcgtI_TjymBYX1BD8/edit?usp=sharing" target="black"> Usability Test Report </a>
+        <br></br>
+        <a href="https://www.figma.com/proto/mdfRRY1zSdXdm4GYLX71LD/HiFi-prototype?page-id=421%3A15029&node-id=421%3A15326&viewport=214%2C293%2C0.09&scaling=scale-down&starting-point-node-id=421%3A15326&show-proto-sidebar=1" target="blank"> Final Figma Prototype </a>
         </body>
         <h3> Three Musketeer (Fall 2021)</h3>
         <body>
