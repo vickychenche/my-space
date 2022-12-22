@@ -2,9 +2,9 @@ import './Project.css';
 export default function Project(){
     return(
         <>
-        <h1>Projects </h1>
+        <h1 class="title">Projects </h1>
         <h2>The following are some of the projects I have worked on throughout the years!</h2>
-        <h3> InDevConnect (Summer 2022)</h3>
+        <h3 class="title"> InDevConnect (Summer 2022)</h3>
         <body>
         This was one of my favourite project to work on! My team and I create a end product of Protoype using Figma. <br></br>
         We identified a problem space to help indie game devloper to get more exposure and researched a way to fix this problem. <br></br>
@@ -21,7 +21,7 @@ export default function Project(){
         <br></br>
         <a href="https://www.figma.com/proto/mdfRRY1zSdXdm4GYLX71LD/HiFi-prototype?page-id=421%3A15029&node-id=421%3A15326&viewport=214%2C293%2C0.09&scaling=scale-down&starting-point-node-id=421%3A15326&show-proto-sidebar=1" target="blank"> Final Figma Prototype </a>
         </body>
-        <h3> Three Musketeer (Fall 2021)</h3>
+        <h3 class="title"> Three Musketeer (Fall 2021)</h3>
         <body>
         This was a project that I made with 3 other classmates when I took CSC207 (software design) class. <br></br>
         We created a chest like game that allowed 2 types of play style, user-user, user-computer. <br></br>

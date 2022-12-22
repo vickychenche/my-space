@@ -9,6 +9,15 @@ ul {
     text-align:center;
     list-style: none;
 }
+
+a {
+  color: #a2a8d3;
+}
+
 a:link {
   text-decoration: none;
+}
+
+.title {
+  color: #a2a8d3;
 }

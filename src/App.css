@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+/*
+.cursor {
+  z-index: 999;
+  position: fixed;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  pointer-events: none;
+  box-shadow: 0 0 20px white, 0 0 60px white, 0 0 100px white;
+  transform: translate(-50%, -50%);
+}
+
+#container {
+  width: 1000px;
+  height: 1000px;
+  border: 1px solid blue;
+}
+*/
