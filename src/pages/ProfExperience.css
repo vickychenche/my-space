@@ -1,19 +1,38 @@
+html {
+    background-color: #202020;
+}
 h2 {
-    color: #293241;
+    color: white;
+    font-size: 1.25rem;
 }
 
-ul {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    text-align:center;
-    list-style: none;
+ul.job-description {
+    margin-left: 0;
+    padding: 0.5%;
+    text-align:left;
+    font-size: 0.9rem;
 }
 
-a {
-    color: #293241;
+.company-title {
+    color: rgb(14, 248, 14);
+    padding-bottom: 0;
+    margin-bottom: 0;
+    display: inline;
 }
 
-.title {
-  color: #a2a8d3;
+.company {
+    padding-bottom: 1%;
+}
+.dates {
+    display: inline;
+    position: absolute;
+    right: 2%;
+    font-size: 1.20rem;
+}
+
+.div1 {
+    padding-left: 5px;
+    color: white;
+    font-size: 1.25rem;
+    
 }

@@ -8,23 +8,20 @@ body {
 
 #home-name {
   color: white;
-}
-.container {
-    margin: 1rem;
-    text-align: center;
-}
-.nav {
-    background-color: #293241;
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    gap: 2rem;
-    padding: 0 1rem;
+  align-items: flex-end;
+  font-size: 2.1rem;
 }
 
-.site-title{
-    font-size: 2rem;
+.nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    font-size: 	1.2rem;
+    padding-right: 1rem;
+    padding-bottom: 0.25rem;
+    
 }
+
 .nav ul{
     padding: 0%;
     margin: 0%;
@@ -33,7 +30,7 @@ body {
     gap: 1rem;
 }
 .nav a{
-    color: #a2a8d3;
+    color: white;
     text-decoration: none;
     height: 100%;
     display: flex;
@@ -43,9 +40,14 @@ body {
 }
 
 .nav li:active{
-    background-color: #3D5A80;
+    background-color: #202020;
 }
 
 .nav li:hover{
-    background-color: #38598b;
+    background-color: #202020;
+}
+
+.icon {
+    width: 50px;
+    height: 40px;
 }

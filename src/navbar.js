@@ -1,10 +1,9 @@
+import './navbar.css';
+import fire from ".//images/fireicon.png";
 export default function navbar(){
     return <nav className="nav">
-        <a href="/" class="site-title" id="home-name"> Vicky Chen</a>
+        <a href="/" id="home-name"> <img class="icon" src={fire} alt="ICON"/>Vicky Chen</a>
         <ul>
-            <li>
-                <a href="/about"> About Me</a>
-            </li>
             <li>
                 <a href="/profExperience"> Professional Experiences</a>
             </li>

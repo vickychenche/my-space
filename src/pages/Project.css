@@ -1,5 +1,6 @@
 h2 {
-    color: #293241;
+    color: white;
+    font-size: 1.25rem;
 }
 
 ul {
@@ -11,7 +12,7 @@ ul {
 }
 
 a {
-  color: #a2a8d3;
+  color: white;
 }
 
 a:link {
@@ -19,5 +20,12 @@ a:link {
 }
 
 .title {
-  color: #a2a8d3;
+  color: white;
+}
+
+.div1 {
+  padding-left: 5px;
+  color: white;
+  font-size: 1.25rem;
+  
 }

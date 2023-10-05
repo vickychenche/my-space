@@ -1,8 +1,19 @@
 import './Project.css';
+import React, {useState} from 'react';
+import Typewriter from '../components/Typewriter';
 export default function Project(){
+    const [firstTypewriterComplete, setFirstTypewriterComplete] = useState(false);
+
+    const handleFirstTypewriterComplete = () => {
+        setFirstTypewriterComplete(true);
+    };
     return(
         <>
-        <h1 class="title">Projects </h1>
+        <div class="div1">C:\User\Unknown>
+         <Typewriter text=' Projects...' delay={100} onComplete={handleFirstTypewriterComplete}/>
+        {firstTypewriterComplete && 
+            
+        <p>-----------------------------<br/>
         <h2>The following are some of the projects I have worked on throughout the years!</h2>
         <h3 class="title"> InDevConnect (Summer 2022)</h3>
         <body>
@@ -30,7 +41,7 @@ export default function Project(){
         </body>
 
 
-
+        </p>}</div>
         </>
 
     )
