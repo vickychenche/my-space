@@ -35,7 +35,8 @@ export default function Home(){
             C:\User\Unknown>
             <a class="home-link" href="https://www.linkedin.com/in/vicky-chen-chen/" target="blank"> LINKEDIN </a>
             <br/>
-            C:\User\Unknown>
+            C:\User\Unknown> 
+            <a class="home-link" href="https://www.youtube.com/channel/UC8ckrW8bjzIZG1EdG4THFbQ" target="blank"> YOUTUBE</a>
             </p>}
            
         </div>
