@@ -38,7 +38,7 @@ export default function Home(){
             C:\User\Unknown> 
             <a class="home-link" href="https://www.youtube.com/channel/UC8ckrW8bjzIZG1EdG4THFbQ" target="blank"> YOUTUBE</a>
             <br/>
-            C:\User\Unknown> <a class="home-link">I am a hockey player</a>
+            C:\User\Unknown> <a class="home-link">I like soup and play hockey</a>
             </p>}
            
         </div>
