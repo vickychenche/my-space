@@ -19,10 +19,30 @@ a:link {
   text-decoration: none;
 }
 
-.title {
-  color: white;
+ul.project-links {
+  margin-left: 2%;
+  padding: 0.5%;
+  text-align:left;
+  font-size: 0.9rem;
 }
 
+.project-description {
+  margin-left: 0;
+  padding: 0.5%;
+  text-align:left;
+  font-size: 0.9rem;
+}
+
+.project-title {
+  color: rgb(14, 248, 14);
+    padding-bottom: 0;
+    margin-bottom: 0;
+    display: inline;
+}
+
+.project {
+  padding-bottom: 1%;
+}
 .div1 {
   padding-left: 5px;
   color: white;

@@ -5,10 +5,13 @@ export default function navbar(){
         <a href="/" id="home-name"> <img class="icon" src={fire} alt="ICON"/>Vicky Chen</a>
         <ul>
             <li>
-                <a href="/profExperience"> Professional Experiences</a>
+                <a href="/profExperience">Work Experiences</a>
             </li>
             <li>
-                <a href="/project"> Projects</a>
+                <a href="/project">Projects</a>
+            </li>
+            <li> 
+                <a href="/extracurricular">Extracurricular</a>
             </li>
         </ul>
     </nav>

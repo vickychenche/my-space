@@ -14,7 +14,7 @@ export default function ProfExperience(){
         
         <div class="div1">C:\User\Unknown>
 
-        <Typewriter text=' Professional Experiences...' delay={100} onComplete={handleFirstTypewriterComplete}/>
+        <Typewriter text=' Work Experiences...' delay={100} onComplete={handleFirstTypewriterComplete}/>
         {firstTypewriterComplete && 
             
         <p>-----------------------------<br/>
