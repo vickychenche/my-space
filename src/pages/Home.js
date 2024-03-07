@@ -38,6 +38,9 @@ export default function Home(){
             C:\User\Unknown> 
             <a class="home-link" href="https://www.youtube.com/channel/UC8ckrW8bjzIZG1EdG4THFbQ" target="blank"> YOUTUBE</a>
             <br/>
+            C:\User\Unknown> 
+            <a class="home-link" href="https://docs.google.com/spreadsheets/d/15NvRDs-rDFWdM8U6FqO6NqlPk5US4tFuleFzEtPQUyI/edit?usp=sharing" target="blank"> CAFE REVIEW</a>
+            <br/>
             C:\User\Unknown> <a class="home-link">I like soup and play hockey</a>
             </p>}
            
