@@ -2,6 +2,7 @@ import './Home.css';
 import Typewriter from '../components/Typewriter';
 import React,{useState} from 'react';
 import background from "../images/Background.jpg";
+import resume from "../images/resume.pdf";
 export default function Home(){
 
     const [firstTypewriterComplete, setFirstTypewriterComplete] = useState(false);
@@ -28,9 +29,8 @@ export default function Home(){
             <br></br>
             
             {secondTypewriterComplete && <p> -----------------------------  <br />
-            
             C:\User\Unknown>
-            <a class="home-link" href="https://docs.google.com/document/d/1uwW8BBKvrYGxFONNgMdp2QYD17U9tGmS9aRagDV42TA/edit?usp=sharing" target="blank"> RESUME </a> 
+            <a class="home-link" href={resume} target="blank"> RESUME </a> 
             <br />
             C:\User\Unknown>
             <a class="home-link" href="https://www.linkedin.com/in/vicky-chen-chen/" target="blank"> LINKEDIN </a>
@@ -41,7 +41,7 @@ export default function Home(){
             C:\User\Unknown> 
             <a class="home-link" href="https://docs.google.com/spreadsheets/d/15NvRDs-rDFWdM8U6FqO6NqlPk5US4tFuleFzEtPQUyI/edit?usp=sharing" target="blank"> CAFE REVIEW</a>
             <br/>
-            C:\User\Unknown> <a class="home-link">I like soup and play hockey</a>
+            C:\User\Unknown> <a class="home-link"> Thank you for visiting</a>
             </p>}
            
         </div>

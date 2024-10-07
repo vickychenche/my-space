@@ -16,8 +16,7 @@ export default function Project(){
         <p>-----------------------------<br/>
         <div class="project">
             <div class="project-title">Harmonix Music Club (Vice-President of Event)</div>
-            <div class="dates">Summer 2022 - May 2023
-            </div>
+            <div class="dates">Summer 2022 - May 2023</div><br/>
             <ul class="job-description">
                 <li>- Orchestrated a talent show that brought over 100 attendees and generated over 800 dollars in revenue for donations</li>
                 <li>- Created an environment for music lovers to practice and interact with each other</li>
