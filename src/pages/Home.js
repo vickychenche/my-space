@@ -15,6 +15,10 @@ export default function Home(){
     const handleSecondTypewriteComplete = () => {
         setSecondTypewriterComete(true);
     }
+
+    const openResume = () => {
+        window.open(resume, '_blank');
+      };
     
     return( 
         <>
@@ -30,7 +34,7 @@ export default function Home(){
             
             {secondTypewriterComplete && <p> -----------------------------  <br />
             C:\User\Unknown>
-            <a class="home-link" href={resume} target="blank"> RESUME </a> 
+            <a className="home-link" onClick={openResume} style={{ cursor: 'pointer' }}>RESUME</a><br />
             <br />
             C:\User\Unknown>
             <a class="home-link" href="https://www.linkedin.com/in/vicky-chen-chen/" target="blank"> LINKEDIN </a>
