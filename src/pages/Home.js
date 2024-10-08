@@ -34,7 +34,7 @@ export default function Home(){
             
             {secondTypewriterComplete && <p> -----------------------------  <br />
             C:\User\Unknown>
-            <a className="home-link" onClick={openResume} style={{ cursor: 'pointer' }}>RESUME</a><br />
+            <a className="home-link" href='https://www.overleaf.com/read/drzvsmbqwypk#f86dac' target="blank">RESUME</a><br />
             <br />
             C:\User\Unknown>
             <a class="home-link" href="https://www.linkedin.com/in/vicky-chen-chen/" target="blank"> LINKEDIN </a>
