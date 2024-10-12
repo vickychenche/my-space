@@ -2,7 +2,6 @@ import './Home.css';
 import Typewriter from '../components/Typewriter';
 import React, { useState } from 'react';
 import background from "../images/Background.jpg";
-import resume from "../images/resume.pdf";  // Assuming your PDF is in the images folder
 
 export default function Home() {
     const [firstTypewriterComplete, setFirstTypewriterComplete] = useState(false);
@@ -43,8 +42,8 @@ export default function Home() {
                         {isPanelOpen && (
                             <div className="side-panel">
                                 
-                                {/* Embed the PDF */}
-                                <iframe src={resume} width="100%" height="500px" title="Resume PDF"></iframe>
+                                {/* Embed the PDF using process.env.PUBLIC_URL */}
+                                <iframe src={`${process.env.PUBLIC_URL}/resume.pdf`} width="100%" height="500px" title="Resume PDF"></iframe>
                             </div>
                         )}
                         --> <a className="home-link" href="https://www.linkedin.com/in/vicky-chen-chen/" target="_blank" rel="noopener noreferrer">LINKEDIN</a><br />
