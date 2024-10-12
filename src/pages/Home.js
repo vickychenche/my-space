@@ -17,35 +17,32 @@ export default function Home(){
     }
 
     const openResume = () => {
-        window.open(resume, '_blank');
+        window.open(resume);
       };
     
     return( 
         <>
         <img src = {background} class="background"  />
         <div class="content">
-            <Typewriter text='Lil Glucose [Version 1.0.0.0]' delay={20} onComplete={handleFirstTypewriterComplete}
+            <Typewriter text='Lil Glucose [Version 1.0.0.0]' delay={50} onComplete={handleFirstTypewriterComplete}
                     />
             <br></br>
             {firstTypewriterComplete && (
-                <Typewriter text='(c) Not a Corporation. All rights reserved' delay={20} onComplete={handleSecondTypewriteComplete}/>
+                <Typewriter text='C:\User\Unknown> cat Basic Information...' delay={100} onComplete={handleSecondTypewriteComplete}/>
             )}
             <br></br>
             
             {secondTypewriterComplete && <p> -----------------------------  <br />
-            C:\User\Unknown>
-            <a className="home-link" href='https://www.overleaf.com/read/drzvsmbqwypk#f86dac' target="blank">RESUME</a><br />
+            
+            --> <a className="home-link" href={resume} target="blank"> RESUME</a>
             <br />
-            C:\User\Unknown>
-            <a class="home-link" href="https://www.linkedin.com/in/vicky-chen-chen/" target="blank"> LINKEDIN </a>
+            --><a class="home-link" href="https://www.linkedin.com/in/vicky-chen-chen/" target="blank"> LINKEDIN </a>
             <br/>
-            C:\User\Unknown> 
-            <a class="home-link" href="https://www.youtube.com/channel/UC8ckrW8bjzIZG1EdG4THFbQ" target="blank"> YOUTUBE</a>
+            --><a class="home-link" href="https://www.youtube.com/channel/UC8ckrW8bjzIZG1EdG4THFbQ" target="blank"> YOUTUBE</a>
             <br/>
-            C:\User\Unknown> 
-            <a class="home-link" href="https://docs.google.com/spreadsheets/d/15NvRDs-rDFWdM8U6FqO6NqlPk5US4tFuleFzEtPQUyI/edit?usp=sharing" target="blank"> CAFE REVIEW</a>
+            --><a class="home-link" href="https://docs.google.com/spreadsheets/d/15NvRDs-rDFWdM8U6FqO6NqlPk5US4tFuleFzEtPQUyI/edit?usp=sharing" target="blank"> CAFE REVIEW</a>
             <br/>
-            C:\User\Unknown> <a class="home-link"> Thank you for visiting</a>
+            <a class="home-link"> Thank you for visiting</a>
             </p>}
            
         </div>

@@ -10,7 +10,7 @@ export default function Project(){
     return(
         <>
         <div class="div1">C:\User\Unknown>
-         <Typewriter text=' Projects...' delay={100} onComplete={handleFirstTypewriterComplete}/>
+         <Typewriter text='cat Projects...' delay={100} onComplete={handleFirstTypewriterComplete}/>
         {firstTypewriterComplete && 
             
         <p>-----------------------------<br/>
