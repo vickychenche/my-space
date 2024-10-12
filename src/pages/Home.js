@@ -1,58 +1,59 @@
 import './Home.css';
 import Typewriter from '../components/Typewriter';
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 import background from "../images/Background.jpg";
-import resume from "../images/resume.pdf";
-export default function Home(){
+import resume from "../images/resume.pdf";  // Assuming your PDF is in the images folder
 
+export default function Home() {
     const [firstTypewriterComplete, setFirstTypewriterComplete] = useState(false);
-    const [secondTypewriterComplete, setSecondTypewriterComete] = useState(false);
+    const [secondTypewriterComplete, setSecondTypewriterComplete] = useState(false);
+    const [isPanelOpen, setIsPanelOpen] = useState(false);
 
     const handleFirstTypewriterComplete = () => {
         setFirstTypewriterComplete(true);
     };
 
-    const handleSecondTypewriteComplete = () => {
-        setSecondTypewriterComete(true);
-    }
+    const handleSecondTypewriterComplete = () => {
+        setSecondTypewriterComplete(true);
+    };
 
-    const openResume = () => {
-        window.open(resume);
-      };
-    
-    return( 
+    const handleClosePanel = () => {
+        setIsPanelOpen(false);  // Close the panel
+    };
+
+    const handleWordClick = () => {
+        setIsPanelOpen(!isPanelOpen);  // Toggle the panel's open/close state
+    };
+
+    return (
         <>
-        <img src = {background} class="background"  />
-        <div class="content">
-            <Typewriter text='Lil Glucose [Version 1.0.0.0]' delay={50} onComplete={handleFirstTypewriterComplete}
-                    />
-            <br></br>
-            {firstTypewriterComplete && (
-                <Typewriter text='C:\User\Unknown> cat Basic Information...' delay={100} onComplete={handleSecondTypewriteComplete}/>
-            )}
-            <br></br>
-            
-            {secondTypewriterComplete && <p> -----------------------------  <br />
-            
-            --> <a className="home-link" href={resume} target="blank"> RESUME</a>
-            <br />
-            --><a class="home-link" href="https://www.linkedin.com/in/vicky-chen-chen/" target="blank"> LINKEDIN </a>
-            <br/>
-            --><a class="home-link" href="https://www.youtube.com/channel/UC8ckrW8bjzIZG1EdG4THFbQ" target="blank"> YOUTUBE</a>
-            <br/>
-            --><a class="home-link" href="https://docs.google.com/spreadsheets/d/15NvRDs-rDFWdM8U6FqO6NqlPk5US4tFuleFzEtPQUyI/edit?usp=sharing" target="blank"> CAFE REVIEW</a>
-            <br/>
-            <a class="home-link"> Thank you for visiting</a>
-            </p>}
-           
-        </div>
-        
-        
+            <img src={background} className="background" alt="Background" />
+            <div className="content">
+                <Typewriter text='Lil Glucose [Version 1.0.0.0]' delay={50} onComplete={handleFirstTypewriterComplete} />
+                <br />
+                {firstTypewriterComplete && (
+                    <Typewriter text='C:\User\Unknown> cat Basic Information...' delay={100} onComplete={handleSecondTypewriterComplete} />
+                )}
+                <br />
+
+                {secondTypewriterComplete && (
+                    <p>
+                        -----------------------------  <br />
+                        --> <a className="home-link" onClick={handleWordClick}>RESUME</a><br />
+                        {isPanelOpen && (
+                            <div className="side-panel">
+                                
+                                {/* Embed the PDF */}
+                                <iframe src={resume} width="100%" height="500px" title="Resume PDF"></iframe>
+                            </div>
+                        )}
+                        --> <a className="home-link" href="https://www.linkedin.com/in/vicky-chen-chen/" target="_blank" rel="noopener noreferrer">LINKEDIN</a><br />
+                        --> <a className="home-link" href="https://www.youtube.com/channel/UC8ckrW8bjzIZG1EdG4THFbQ" target="_blank" rel="noopener noreferrer">YOUTUBE</a><br />
+                        --> <a className="home-link" href="https://docs.google.com/spreadsheets/d/15NvRDs-rDFWdM8U6FqO6NqlPk5US4tFuleFzEtPQUyI/edit?usp=sharing" target="_blank" rel="noopener noreferrer">CAFE REVIEW</a><br />
+                        <a className="home-link">Thank you for visiting</a>
+                    </p>
+                )}
+            </div>
         </>
-        
     );
-
 }
-
-
-
