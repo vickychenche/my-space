@@ -17,13 +17,12 @@ export default function Project(){
         <div class="project">
             <div class="project-title">InDevConnect (Summer 2022)</div>
             <div class="project-description">
-                This was one of my favorite projects to work on! My team and I created an end product prototype using Figma.
-                We identified a problem space aimed at helping indie game developers gain more exposure and conducted research to find a solution. We gathered data through surveys, interviews, and observations to understand how best to approach the problem.
-                After determining our approach, we began by creating our initial low-fidelity hand-drawn prototype. Following workshops with potential users, we refined our design and developed a high-fidelity Figma prototype.
-            </div>
+            I worked on a project where my team and I developed an end-product prototype using Figma, aimed at 
+            increasing exposure for indie game developers. We conducted thorough research, including surveys, 
+            interviews, and observations, to identify and understand the problem space. After analyzing the data, 
+            we created an initial low-fidelity hand-drawn prototype. Through user workshops, we iteratively refined 
+            our design, ultimately developing a high-fidelity prototype in Figma.</div>
             <ul class="project-links">
-                <li>- <a href="https://docs.google.com/presentation/d/1MrHE1-BRRySlTNYtws_4Yr0XQqnyWqZYgeAFnR51g2s/edit?usp=sharing" target="blank"> Project Presentaion </a></li>
-                <li>- <a href="https://docs.google.com/document/d/1k90OKn3s_OlTwvWD225pYDVBqGTDHLefGlnqDTygrDE/edit?usp=sharing" target="blank"> Low Fadelity Protoype </a></li>
                 <li>- <a href="https://docs.google.com/presentation/d/1ud0ACtJNoUhchyuC4JFmpnezk1AcgtI_TjymBYX1BD8/edit?usp=sharing" target="black"> Usability Test Report </a></li>
                 <li>- <a href="https://www.figma.com/proto/mdfRRY1zSdXdm4GYLX71LD/HiFi-prototype?page-id=421%3A15029&node-id=421%3A15326&viewport=214%2C293%2C0.09&scaling=scale-down&starting-point-node-id=421%3A15326&show-proto-sidebar=1" target="blank"> Final Figma Prototype </a></li>
             </ul>
@@ -31,14 +30,12 @@ export default function Project(){
         <div class="project"> 
             <div class="project-title"> MyShell (Winter 2021)</div>
             <div class="project-description">
-            This was a project I worked on during my CSC209 (Software Tools and Systems Programming) class. I created a custom terminal using C in a Linux environment, where I also 
-            utilized bash and gcc. This project involved implementing fundamental 
-            commands such as 'echo,' 'cat,' and 'var.' Additionally, I worked 
-            extensively with interprocess functions, including 'fork,' 'pipes,' 
-            'signal,' and 'sleep.' Throughout this project, I had the valuable 
-            opportunity to learn and enhance my coding skills in C, and gained 
-            hands-on experience in these essential areas of system-level programming.
-            </div>
+            During my CSC209 (Software Tools and Systems Programming) course, 
+            I developed a custom terminal using C in a Linux environment, leveraging bash and gcc. 
+            This project involved implementing core commands such as 'echo,' 'cat,' and 'var,' 
+            and working extensively with interprocess communication functions like 'fork,' 'pipes,' 'signal,' 
+            and 'sleep.' Through this project, I gained practical experience in system-level programming and 
+            strengthened my proficiency in C.   </div>
         </div>
         <div class="project"> 
             <div class="project-title"> Three Musketeer (Fall 2021)</div>

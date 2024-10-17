@@ -23,18 +23,18 @@ export default function ProfExperience(){
             <div class="company-title">Thomson Reuters (Software Engineer Intern)</div>
             <div class="dates">June 2023 - May 2024</div><br/>
             <ul class="job-description">
-                <li>- Cooperated with developers to design & develop workflows within ONESOURCE Platform to minimize downtime</li>
-                <li>- Utilized Microsoft Azure for user story backlog management and project planning within the SCRUM Framework</li>
-                <li>- Executed end-to-end tasks in TypeScript and Angular for front-end and back-end development</li>
-                <li>- Designed and implemented Python scripts leveraging AWS DynamoDB and Apigee, streamlining data update processes and
-enhancing system efficiency for seamless integration and data management</li>
+                <li>- Collaborated on large-scale infrastructure projects, developing and optimizing workflow in the ONESOURCE Platform</li>
+                <li>- Designed and implemented Python scripts leveraging AWS DynamoDB and Apigee, streamlining data update processes and enhancing system efficiency for seamless integration and data management</li>
+                <li>- Utilized Microsoft Azure for backlog management and project planning within the SCRUM Framework</li>
+                <li>- Executed end-to-end tasks using TypeScript and Angular across front-end and back-end</li>
             </ul></div>
         <div class="company"> 
             <div class="company-title">3rdi Laboratory Inc. (General Internship)</div>
 			<div class="dates">May 2022 - June 2022</div><br/>
             <ul class="job-description">
-                <li>- Researched and constructed logistical data entries on Microsoft Excel for 100+ global museums to examine potential partnership</li>
-                <li>- Simplified website formation through Wordpress to accelerate site efficiency</li>
+                <li>- Researched and compiled logistical data entries on Microsoft Excel for over 100 global museums, driving initiatives for
+data-driven partnerships and improved data analysis processes</li>
+                <li>- Enhanced website performance through WordPress contributing to continuous delivery and infrastructure monitoring</li>
             </ul>
         </div>
         <div class="company"> 
