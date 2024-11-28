@@ -38,7 +38,9 @@ export default function Home() {
                 {secondTypewriterComplete && (
                     <p>
                         -----------------------------  <br />
-                        --> <a className="home-link" href="https://drive.google.com/file/d/1c7i_unmmiFCdCfYR6fjuMjifPOtVv7S_/view?usp=sharing"target="_blank">RESUME</a><br />  
+                        “The Easy, Conversational tone of good writing comes only on the eight rewrite” - Paul Graham<br  />
+                        -----------------------------  <br />
+                        --> <a className="home-link" href="https://drive.google.com/file/d/1eytrhFLTlnx8hfmK_VCQ82xmk20_owiZ/view?usp=sharing"target="_blank">RESUME</a><br />  
                         --> <a className="home-link" href="https://www.linkedin.com/in/vicky-chen-chen/" target="_blank" rel="noopener noreferrer">LINKEDIN</a><br />
                         --> <a className="home-link" href="https://www.youtube.com/channel/UC8ckrW8bjzIZG1EdG4THFbQ" target="_blank" rel="noopener noreferrer">YOUTUBE</a><br />
                         --> <a className="home-link" href="https://docs.google.com/spreadsheets/d/15NvRDs-rDFWdM8U6FqO6NqlPk5US4tFuleFzEtPQUyI/edit?usp=sharing" target="_blank" rel="noopener noreferrer">CAFE REVIEW</a><br />

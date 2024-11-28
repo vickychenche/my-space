@@ -41,8 +41,9 @@ data-driven partnerships and improved data analysis processes</li>
             <div class="company-title">Code/Art Internship (Lead Instructor)</div>
 			<div class="dates"> Sept 2021 - April 2022</div><br/>
             <ul class="job-description">
-                <li>- Encouraged students to learn python and javascript with lessons and projects that aligns with their interest</li>
-                <li>- Facilitated engaging remote classrooms atmosphere through Zoom with ice breakers and exciting games</li>
+                <li>- Led hands-on coding projects in Python and JavaScript for a group of around 10 girls, developing learning materials and delivering interactive lessons that encouraged technical skills and collaboration</li>
+                <li>- Designed and managed virtual classrooms, using custom slides, coding challenges, and icebreakers to maintain high engagement
+and create an inclusive, positive learning environment</li>
             </ul>
         </div>
        
