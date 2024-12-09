@@ -1,6 +1,8 @@
 import './Project.css';
 import React, {useState} from 'react';
 import Typewriter from '../components/Typewriter';
+import report from "../images/indevconnect.png";
+import prototype from "../images/figma_prototype.png"
 export default function Project(){
     const [firstTypewriterComplete, setFirstTypewriterComplete] = useState(false);
 
@@ -17,15 +19,43 @@ export default function Project(){
         <div class="project">
             <div class="project-title">InDevConnect (Summer 2022)</div>
             <div class="project-description">
-            I worked on a project where my team and I developed an end-product prototype using Figma, aimed at 
-            increasing exposure for indie game developers. We conducted thorough research, including surveys, 
-            interviews, and observations, to identify and understand the problem space. After analyzing the data, 
-            we created an initial low-fidelity hand-drawn prototype. Through user workshops, we iteratively refined 
-            our design, ultimately developing a high-fidelity prototype in Figma.</div>
-            <ul class="project-links">
-                <li>- <a href="https://docs.google.com/presentation/d/1ud0ACtJNoUhchyuC4JFmpnezk1AcgtI_TjymBYX1BD8/edit?usp=sharing" target="black"> Usability Test Report </a></li>
-                <li>- <a href="https://www.figma.com/proto/mdfRRY1zSdXdm4GYLX71LD/HiFi-prototype?page-id=421%3A15029&node-id=421%3A15326&viewport=214%2C293%2C0.09&scaling=scale-down&starting-point-node-id=421%3A15326&show-proto-sidebar=1" target="blank"> Final Figma Prototype </a></li>
-            </ul>
+            "Come check out this exciting project where my team and I developed an end-product prototype using Figma, 
+            aimed at increasing exposure for indie game developers. Our process began with extensive research, 
+            including surveys, interviews, and observations, to deeply understand the problem space. 
+            After analyzing the data, we crafted an initial low-fidelity hand-drawn prototype. 
+            Through iterative user workshops, we refined our ideas and brought the concept to life, 
+            culminating in a high-fidelity prototype designed in Figma.
+What I enjoyed about this:
+What I loved most about this project was witnessing our vision transform into a tangible, functional prototype. 
+Seeing my ideas come to life in a way users could interact with was incredibly rewarding."</div>
+            <div className="project-links-container">
+                                <a
+                                    href="https://docs.google.com/presentation/d/e/2PACX-1vQLaKaXMyZXjmPkoTkzKWif9loR3ZfVGm__W-ARQVK3L8zV3LOa0GErL1BYY0nwTGQpxggpd740qMIt/pub?start=false&loop=false&delayms=3000&slide=id.p"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="project-link"
+                                >
+                                    <img
+                                        src={report}
+                                        alt="Usability Test Report"
+                                        className="report"
+                                    />
+                                    <span>Usability Test Report</span>
+                                </a>
+                                <a
+                                    href="https://www.figma.com/proto/QLY8Ob81vpzqUKkajt7XYL/HiFi-prototype-Demo?node-id=217-14663&node-type=canvas&t=Tl2YmNIUnY5VmIDq-1&scaling=scale-down&content-scaling=fixed&page-id=217%3A10397&starting-point-node-id=217%3A14663&show-proto-sidebar=1"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="project-link"
+                                >
+                                    <img
+                                        src={prototype}
+                                        alt="Final Figma Prototype"
+                                        className="figma_prototype"
+                                    />
+                                    <span>Final Figma Prototype</span>
+                                </a>
+                            </div>
         </div>
         <div class="project"> 
             <div class="project-title"> MyShell (Winter 2021)</div>

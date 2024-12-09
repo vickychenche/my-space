@@ -49,3 +49,25 @@ ul.project-links {
   font-size: 1.25rem;
   
 }
+.project-links-container {
+  display: flex;
+  flex-wrap: wrap; /* Ensure wrapping if the screen is too small */
+  justify-content: space-around; /* Add spacing between the items */
+  align-items: center; /* Vertically align items */
+  margin-top: 10px;
+  text-align: center;
+}
+
+.figma_prototype, .report {
+  width: 30%; /* Take up 20% of the page width */
+  max-width: 300px; /* Optional: Limit the maximum size */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure the image behaves as a block element */
+  margin: 10px auto; /* Center align horizontally with auto margins */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  transition: transform 0.3s ease; /* Add a hover effect */
+}
+
+.figma_prototype:hover, .report:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
