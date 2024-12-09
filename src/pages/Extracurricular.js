@@ -1,7 +1,7 @@
 import './Extracurricular.css';
 import React, {useState} from 'react';
 import Typewriter from '../components/Typewriter';
-import hockey from '../images/hockey.jpeg';
+import hockey from '../images/hockey.png';
 export default function Project(){
     const [firstTypewriterComplete, setFirstTypewriterComplete] = useState(false);
 
