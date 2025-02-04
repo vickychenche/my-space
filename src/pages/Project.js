@@ -17,6 +17,17 @@ export default function Project(){
             
         <p>-----------------------------<br/>
         <div class="project">
+            <div class="project-title">Crafting Interpreter (Ongoing)</div>
+            <div class="project-description">
+                I love this book. For its detailed approad to explaining the basics of language construction and the story telling. 
+                It led me through the intricate process of designing and implementing a bytecode virtual machine (VM) from scratch, 
+                emphasizing low-level memory management and runtime optimization. Through developing a recursive descent parser and an 
+                abstract syntax tree (AST) to compile high-level Lox code into bytecode, I was able to build essential components such as 
+                garbage collection, object representation, and bytecode compilation myself. This hands-on experience with stack-based execution, 
+                bytecode generation, and memory safety was invaluable as I implemented the VM.evel Lox code into bytecode, as well as b
+                uilding core components like garbage collection, object representation, and bytecode compilation. By engaging with this 
+                book, I gained hands-on experience in stack-based execution, bytecode generation, and ensuring memory safety while implementing the VM.
+            </div>
             <div class="project-title">InDevConnect (Summer 2022)</div>
             <div class="project-description">
             "Come check out this exciting project where my team and I developed an end-product prototype using Figma, 
