@@ -40,7 +40,7 @@ export default function Home() {
                         -----------------------------  <br />
                         “The Easy, Conversational tone of good writing comes only on the eight rewrite” - Paul Graham<br  />
                         -----------------------------  <br />
-                        --> <a className="home-link" href="https://drive.google.com/file/d/1Afuxscv6fHsAHYmyI5pQmQqRgWfw1vgS/view?usp=sharing"target="_blank">RESUME</a><br />  
+                        --> <a className="home-link" href="https://drive.google.com/drive/folders/1JF6wcaK3qL3UxsolBrIePw5GHpjeJHSm?usp=drive_link"target="_blank">RESUME</a><br />  
                         --> <a className="home-link" href="https://www.linkedin.com/in/vicky-chen-chen/" target="_blank" rel="noopener noreferrer">LINKEDIN</a><br />
                         --> <a className="home-link" href="https://www.youtube.com/channel/UC8ckrW8bjzIZG1EdG4THFbQ" target="_blank" rel="noopener noreferrer">YOUTUBE</a><br />
                         --> <a className="home-link" href="https://docs.google.com/spreadsheets/d/15NvRDs-rDFWdM8U6FqO6NqlPk5US4tFuleFzEtPQUyI/edit?usp=sharing" target="_blank" rel="noopener noreferrer">CAFE REVIEW</a><br />
